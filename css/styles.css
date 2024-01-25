@@ -5,8 +5,31 @@ background-color: #fff;
 }
 
 a{text-decoration: none;}
+p, h1,h2,h3,h4{
+    margin-top: 0;
+    margin-bottom: 0;
+}
 
-ul, ol {list-style: none;}
+ul, ol {list-style: none;
+margin-top: 0;
+padding-left: 0;
+margin-bottom: 0;
+}
+
+
+
+.container{
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid tomato;
+}
+.header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    }
 
 .logo{color:#4D5AE5;
     font-family: 'Raleway', sans-serif;
@@ -56,8 +79,10 @@ letter-spacing: 0.02em;
 }
 
 .main-section{
-    background-color:#2E2F42 ;
+    background-color:#2E2F42;
+    padding: 188px 0;
 }
+
 .main-section-text{
     color: #FFF;
 text-align: center;
@@ -66,6 +91,9 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07; 
 letter-spacing: 0.02em;
+max-width: 496px;
+padding: 0;
+margin: 0 auto;
 }
 
 .main-button{
@@ -77,6 +105,12 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #4D5AE5;
 cursor: pointer;
+border: none;
+padding: 16px 32px;
+border-radius: 4px;
+margin: 0 auto;
+margin-top: 48px;
+display: block;
 }
 
 .main-button:hover,
@@ -92,13 +126,34 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+padding-bottom: 72px;
 }
+
+.benefits-section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 .section-benefits {
     color:#2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
+margin-bottom: 8px;
 }
 
 .section-benefits-text{
@@ -113,6 +168,7 @@ letter-spacing: 0.02em;
 }
 .team{
    background-color: #F4F4FD;
+   padding: 120px;
 }
 
 .team-member {
@@ -128,6 +184,10 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.portfolio{
+    padding: 120px;
 }
 
 .portfolio-title {
@@ -147,6 +207,11 @@ letter-spacing: 0.02em;
 footer{
     background:#2E2F42;
 }
+
+.footer-bottom{
+padding: 101.5px;
+}
+
 .footer-logo {
     color:#4D5AE5;
     font-family: 'Raleway', sans-serif;
