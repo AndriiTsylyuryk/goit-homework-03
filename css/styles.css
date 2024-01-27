@@ -15,8 +15,9 @@ margin-top: 0;
 padding-left: 0;
 margin-bottom: 0;
 }
+
 .img{
-    display: block;1
+display: block;
 }
 
 
@@ -190,7 +191,7 @@ margin-bottom: 8px;
 }
 
 .benefits-item{
-width: calc((100%- 72px) / 4);
+flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .section-benefits-text{
