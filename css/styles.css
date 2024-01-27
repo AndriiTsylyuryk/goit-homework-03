@@ -15,7 +15,9 @@ margin-top: 0;
 padding-left: 0;
 margin-bottom: 0;
 }
-
+.img{
+    display: block;1
+}
 
 
 .container{
@@ -136,6 +138,7 @@ border-radius: 4px;
 margin: 0 auto;
 margin-top: 48px;
 display: block;
+min-width: 169px;
 }
 
 .main-button:hover,
@@ -144,14 +147,14 @@ display: block;
 
 }
 .section-title{
-    color: #2E2F42;
+color: #2E2F42;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-padding-bottom: 72px;
+margin-bottom: 72px;
 }
 
 .benefits-section{
@@ -187,7 +190,7 @@ margin-bottom: 8px;
 }
 
 .benefits-item{
-width: calc ((100%- 72px) / 4);
+width: calc((100%- 72px) / 4);
 }
 
 .section-benefits-text{
@@ -202,10 +205,11 @@ letter-spacing: 0.02em;
     border-radius: 0px 0px 4px 4px;
 background: #FFF;
 box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+
 }
 .team{
    background-color: #F4F4FD;
-   padding: 120px;
+   padding: 120px 0;
 }
 
 .team-list{
@@ -225,6 +229,8 @@ margin-bottom: 8px;
 text-align: center;
 }
 
+
+
 .team-member-position {
 font-size: 16px;
 font-weight: 400;
@@ -236,11 +242,15 @@ text-align: center;
 
 .member-pic{
     margin-bottom: 32px;
+}
 
+.member-info{
+
+    padding: 32px 0;
 }
 
 .portfolio{
-    padding: 120px;
+    padding-top: 120px; padding-bottom: 120px;
 }
 
 
@@ -248,18 +258,24 @@ text-align: center;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-list-feature{
-border: 1px solid  #E7E9FC;
-background:#FFF;
+
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-picture{
     margin-bottom: 32px;
+    
 }
 
+.portfolio-description{
+    padding:  32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
+}
 
 .portfolio-title {
     color:#2E2F42;
@@ -267,7 +283,7 @@ font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
 letter-spacing: 0.02em;
-padding-bottom: 8px;
+margin-bottom: 8px
 }
 .portfolio-title-descr {
 font-size: 16px;
@@ -282,7 +298,7 @@ footer{
 }
 
 .footer-bottom{
-padding: 101.5px;
+padding: 100px 0;
 }
 
 .footer-logo {
@@ -293,6 +309,8 @@ padding: 101.5px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    display: inline-block;
+    margin: 16px;
     
 }
 .footer-logo-part {
@@ -304,6 +322,6 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-width: 264px;
-padding-top: 18px;
+max-width: 264px;
+
 }
