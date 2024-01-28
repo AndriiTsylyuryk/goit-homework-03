@@ -261,7 +261,6 @@ text-align: center;
 }
 
 .portfolio-list-feature{
-
 width: calc((100% - 48px) / 3);
 }
 
@@ -277,7 +276,7 @@ width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
-    color:#2E2F42;
+color:#2E2F42;
 font-size: 20px;
 font-weight: 500;
 line-height: 1.2;
@@ -289,7 +288,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
-padding-bottom: 32px;
+
 }
 
 footer{
@@ -309,7 +308,7 @@ padding: 100px 0;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin: 16px;
+    margin-bottom: 16px;
     
 }
 .footer-logo-part {
